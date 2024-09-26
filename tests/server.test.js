@@ -11,7 +11,7 @@ describe("GET /", () => {
             .get('/')
             .end((err, res) => {
                 res.should.have.status(200);
-                res.text.should.contain('Hello Fifa');
+                res.text.should.contain('Hello Fifas');
                 done();
             });
     });
